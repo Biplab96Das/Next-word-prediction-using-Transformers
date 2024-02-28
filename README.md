@@ -18,5 +18,6 @@ flask --app app run --debug
 ```
 
 Open your browser http://localhost:5000
+![demo](https://github.com/Biplab96Das/Next-word-prediction-using-Transformers/assets/31479620/9f4d99fb-1e3c-4078-a3c4-c4c363dc4203)
 
 
