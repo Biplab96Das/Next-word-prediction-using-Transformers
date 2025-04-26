@@ -1,12 +1,12 @@
 # Next word prediction
-Simple application using transformers models to predict next word or a masked word in a sentence.
+Simple application using transformer models to predict the next word or a masked word in a sentence.
 
 The purpose is to demo and compare the main models available up to date.
 
-The first load take a long time since the application will download all the models. Beside 6 models running, inference time is acceptable even in CPU.
+The first load takes a long time since the application will download all the models. Beside 6 models running, inference time is acceptable even in CPU.
 
 ### Application
-This app implements two variants of the same task (predict <mask> token). The first one consider the "<mask>" is at end of the sentence, simulating a prediction of the next word of the sentece.
+This app implements two variants of the same task (predict <mask> token). The first one considers the mask word in between a sentence and the second one predicts the word at the end of the sentence, simulating a prediction of the next word of the sentence.
 
 The second variant is necessary to include a <mask> token where you want the model to predict the word.
 
